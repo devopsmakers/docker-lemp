@@ -84,5 +84,5 @@ bit quicker / safer:
 * `make stop` you guessed it: stops the cluster
 * `make interactive` brings the cluster up in the foreground
 * `make clean` removes the contents of `./app` and `./db/data` - **DESTRUCTIVE**
-* `make reset` stops the cluster, cleans ./app` and `./db/data` and performs a
+* `make reset` stops the cluster, cleans `./app` and `./db/data` and performs a
   hard git reset on the repo to reset everything - **SUPER-DESTRUCTIVE**
