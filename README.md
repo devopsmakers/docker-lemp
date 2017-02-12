@@ -65,10 +65,11 @@ missing lib / dev packages. Let's install them:
 
 * Edit `./php/Dockerfile` and amend the line:
   `RUN /usr/local/bin/docker-php-ext-install opcache gd` to:
-  ```
-  RUN apk add --update libpng-dev libjpeg-turbo-dev && \
-      /usr/local/bin/docker-php-ext-install opcache gd
-  ```
+
+```
+RUN apk add --update libpng-dev libjpeg-turbo-dev && \
+    /usr/local/bin/docker-php-ext-install opcache gd
+```
 * Run `docker-compose build` again and I promise everything will (should) work out fine.
 * Refresh your browser page and the error *should* be gone.
 
