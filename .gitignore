@@ -1,0 +1,5 @@
+.DS_Store
+app/*
+db/data/*
+!app/.gitkeep
+!db/data/.gitkeep
