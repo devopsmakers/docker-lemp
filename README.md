@@ -80,7 +80,7 @@ bit quicker / safer:
 
 * `make` restarts the docker-compose cluster
 * `make up` builds and brings the cluster up
-* 'make stop' you guessed it: stops the cluster
+* `make stop` you guessed it: stops the cluster
 * `make interactive` brings the cluster up in the foreground
 * `make clean` removes the contents of `./app` and `./db/data` - **DESTRUCTIVE**
 * `make reset` stops the cluster, cleans ./app` and `./db/data` and performs a
